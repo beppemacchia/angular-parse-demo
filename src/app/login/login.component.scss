@@ -1,0 +1,36 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  mat-card {
+    max-height: 400px;
+    max-width: 400px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    mat-card-header {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 90px;
+        height: 90px;
+      }
+    }
+    mat-card-content {
+      .hello-message {
+        text-align: center;
+        padding-bottom: 1rem;
+      }
+    }
+    mat-card-actions {
+      display: flex;
+      justify-content: center;
+    }
+    mat-form-field {
+      width: 100%;
+    }
+  }
+}
